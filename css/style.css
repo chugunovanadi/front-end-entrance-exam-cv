@@ -34,12 +34,12 @@ body {
   left: 0;
   width: 100vw;
   height: 100vh;
-  background: rgba(255, 255, 255, 0.9);
+  background: var(--color-white);
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 1.5rem;
-  color: #333;
+  color: var(--color-black);
   z-index: 99999;
   user-select: none;
   pointer-events: none;
@@ -86,7 +86,7 @@ body {
   animation: none !important;
   width: 794px !important;
   padding: 40px !important;
-  background: white !important;
+  background: var(--color-white) !important;
   box-shadow: none;
   transform: none !important;
 }
@@ -107,6 +107,7 @@ body {
   width: 124px;
   height: 124px;
   border-radius: var(--border-radius-l);
+  overflow: hidden;
 }
 
 .photo-image {
