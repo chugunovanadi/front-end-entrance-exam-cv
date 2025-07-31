@@ -1,0 +1,15 @@
+{
+	"extends": ["stylelint-config-standard", "stylelint-config-prettier"],
+	"rules": {
+		"selector-class-pattern": [
+			"^[a-z][a-z0-9]*(?:-[a-z0-9]+)*(?:__(?:[a-z0-9]+(?:-[a-z0-9]+)*))?(?:--[a-z0-9]+)?$",
+			{
+				"message": "Expected class name to be kebab-case or BEM-style"
+			}
+		],
+		"indentation": 2,
+		"color-hex-case": "lower",
+		"number-leading-zero": "always",
+		"block-opening-brace-space-before": "always"
+	}
+}
