@@ -1,0 +1,303 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="icon" type="image/svg+xml" href="/vite.svg" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="./css/style.css" />
+		<title>Resume</title>
+	</head>
+	<body>
+		<main class="main">
+			<div class="general-resume-container">
+				<div class="rowflex-general">
+
+					<section class="photo">
+						<img src="img/cvphoto.png" alt="My Photo" class="photo-image" />
+					</section>
+
+					<section class="general-resume-block intro">
+						<p class="intro__greeting">Hello 👋🏻 I’m</p>
+						<div class="intro__info">
+							<h1 class="intro__name" contenteditable="true">Chugunova Nadya</h1>
+							<p class="intro__profession" contenteditable="true">JS-developer</p>
+						</div>
+					</section>
+
+					<section class="general-resume-block contact">
+						<h1 class="contact__title">
+							Let’s chat! I’m ready to work on exciting projects
+						</h1>
+						<article class="contact__possibilities">
+							<a href="mailto:tchugunowa.nadi@gmail.com" class="contact__link"
+								>tchugunowa.nadi@gmail.com</a
+							>
+							<button class="contact__download-button">
+								Download
+								<span class="fly-file" aria-hidden="true">📄</span>
+							</button>
+						</article>
+					</section>
+				</div>
+
+				<div class="rowflex-general">
+					<section class="general-resume-block experience">
+						<h1 class="experience__title">Experience</h1>
+						<div class="experience__projects">
+
+							<article class="project project--current">
+								<div class="project__top">
+									<div class="project__date" contenteditable="true">2025</div>
+                  <div class="project__tag">
+										<span class="project__tag-text">most recent</span>
+									</div>
+								</div>
+								<div class="project__content">
+									<div class="project__summary">
+										<p class="project__role" contenteditable="true">personal movie list management service</p>
+										<div class="project__workplace">
+											<p class="project__company" contenteditable="true">pet project</p>
+											<span class="project__divider">|</span>
+											<p class="project__type" contenteditable="true">student</p>
+										</div>
+									</div>
+									<ul class="project__description">
+										<li class="project__description-item" contenteditable="true">
+											Implemented MVP architecture to separate logic, presentation and data model.
+										</li>
+										<li class="project__description-item" contenteditable="true">
+											Management of movie statuses with synchronization between list and popup.
+										</li>
+										<li class="project__description-item" contenteditable="true">
+											Adding and deleting comments with selection of emotions and secure sending of data.
+										</li>
+									</ul>
+								</div>
+							</article>
+
+							<article class="project">
+								<div class="project__top">
+									<div class="project__date" contenteditable="true">2025</div>
+								</div>
+								<div class="project__content">
+									<div class="project__summary">
+										<p class="project__role" contenteditable="true">travel route planning service</p>
+										<div class="project__workplace">
+											<p class="project__company" contenteditable="true">pet project</p>
+											<span class="project__divider">|</span>
+											<p class="project__type" contenteditable="true">student</p>
+										</div>
+									</div>
+									<ul class="project__description">
+										<li class="project__description-item" contenteditable="true">
+											Implemented MVP architecture for separating logic, presentation and data model.
+										</li>
+										<li class="project__description-item" contenteditable="true">
+											Editing route points with data validation and dynamic loading of options and descriptions from the server.
+										</li>
+										<li class="project__description-item" contenteditable="true">
+											Single opening of the create/edit form with saving of the state of the fields.
+										</li>
+									</ul>
+								</div>
+							</article>
+
+              <article class="project">
+								<div class="project__top">
+									<div class="project__date" contenteditable="true">2025</div>
+								</div>
+								<div class="project__content">
+									<div class="project__summary">
+										<p class="project__role" contenteditable="true">image viewing and sharing service</p>
+										<div class="project__workplace">
+											<p class="project__company" contenteditable="true">pet project</p>
+											<span class="project__divider">|</span>
+											<p class="project__type" contenteditable="true">student</p>
+										</div>
+									</div>
+									<ul class="project__description">
+										<li class="project__description-item" contenteditable="true">
+											Implemented image upload functionality with the ability to scale, apply filters and control their intensity.
+										</li>
+										<li class="project__description-item" contenteditable="true">
+											Display of uploaded user images with full-screen viewing, comment loading and pagination, client-side data validation.
+										</li>
+                    <li class="project__description-item" contenteditable="true">
+											Image filtering with 500 ms debounce rendering optimization.
+										</li>
+									</ul>
+								</div>
+							</article>
+
+						</div>
+					</section>
+
+					<section class="general-resume-block devtools">
+						<h1 class="devtools__title">Tools</h1>
+
+						<div class="devtools__block">
+							<h2 class="devtools__category">program</h2>
+							<ul class="devtools__list">
+								<li class="devtools__item" data-tooltip="JavaScript">
+									<img
+										src="img/JavaScript.svg"
+										crossorigin="anonymous"
+										alt="JavaScript Logo"
+										class="tools__icon"
+									/>
+								</li>
+								<li class="devtools__item" data-tooltip="TypeScript">
+									<img
+										src="img/Typescript.svg"
+										crossorigin="anonymous"
+										alt="TypeScript Logo"
+										class="tools__icon"
+									/>
+								</li>
+								<li class="devtools__item" data-tooltip="Python">
+									<img src="img/Python.svg" alt="Python Logo" class="tools__icon" />
+								</li>
+							</ul>
+						</div>
+
+						<div class="devtools__block">
+							<h2 class="devtools__category">markup&stylinge</h2>
+							<ul class="devtools__list">
+								<li class="devtools__item" data-tooltip="HTML">
+									<img
+										src="img/HTML.svg"
+										crossorigin="anonymous"
+										alt="HTML Logo"
+										class="tools__icon"
+									/>
+								</li>
+								<li class="devtools__item" data-tooltip="CSS">
+									<img
+										src="img/CSS.svg"
+										crossorigin="anonymous"
+										alt="CSS Logo"
+										class="tools__icon"
+									/>
+								</li>
+								<li class="devtools__item" crossorigin="anonymous" data-tooltip="Figma">
+									<img src="img/Figma.svg" alt="Figma Logo" class="tools__icon" />
+								</li>
+							</ul>
+						</div>
+
+						<div class="devtools__block">
+							<h2 class="devtools__category">library</h2>
+							<ul class="devtools__list">
+								<li class="devtools__item" data-tooltip="React">
+									<img
+										src="img/react.svg"
+										crossorigin="anonymous"
+										alt="React Logo"
+										class="tools__icon"
+									/>
+								</li>
+								<li class="devtools__item" data-tooltip="Redux">
+									<img
+										src="img/Redux.svg"
+										crossorigin="anonymous"
+										alt="Redux Logo"
+										class="tools__icon"
+									/>
+								</li>
+								<li class="devtools__item" data-tooltip="Jest">
+									<img
+										src="img/jest.svg"
+										crossorigin="anonymous"
+										alt="Jest Logo"
+										class="tools__icon"
+									/>
+								</li>
+							</ul>
+						</div>
+					</section>
+				</div>
+
+				<div class="rowflex-general">
+					<section class="general-resume-block education">
+						<h1 class="education__title">Education</h1>
+						<div class="education__list-container">
+							<article class="education__item education--current">
+								<p class="education__date" contenteditable="true">2025</p>
+								<div class="education__content">
+									<p class="education__field" contenteditable="true">JS-intensive</p>
+									<p class="education__hashtags" contenteditable="true">
+										#js #git #node #unit #test #ts #css #linting 
+									</p>
+								</div>
+								<p class="education__university" contenteditable="true">T-edu</p>
+							</article>
+
+							<article class="education__item">
+								<p class="education__date" contenteditable="true">2024–2025</p>
+								<div class="education__content">
+									<p class="education__field" contenteditable="true">JS-development</p>
+									<p class="education__hashtags" contenteditable="true">
+										#js #DOM #SPA #OOP #MVP #observer #state
+									</p>
+								</div>
+								<p class="education__university" contenteditable="true">HTML-Academy</p>
+							</article>
+
+							<article class="education__item">
+								<p class="education__date" contenteditable="true">2018-2022</p>
+								<div class="education__content">
+									<p class="education__field" contenteditable="true">
+										Applied Maths and Computer Science
+									</p>
+									<p class="education__hashtags" contenteditable="true">
+										#maths #numerical #analysis #IoT #ai #concurrent
+									</p>
+								</div>
+								<p class="education__university" contenteditable="true">SPbU</p>
+							</article>
+						</div>
+					</section>
+
+					<section class="general-resume-block additional-information">
+						<article class="additional-information__languages languages">
+							<h1 class="languages__title">Languages</h1>
+							<div class="languages__list">
+								<ul class="languages__name">
+									<li class="languages__name-item ru" contenteditable="true">Russian</li>
+									<li class="languages__name-item en" contenteditable="true">English</li>
+								</ul>
+								<ul class="languages__level">
+									<li class="languages__level-item ru"></li>
+									<li class="languages__level-item en"></li>
+								</ul>
+							</div>
+						</article>
+
+						<article class="additional-information__hobby hobby">
+							<h1 class="hobby__title">Interests</h1>
+							<ul class="hobby__list">
+								<li class="hobby__item" contenteditable="true">gym</li>
+								<li class="hobby__item" contenteditable="true">forest</li>
+								<li class="hobby__item" contenteditable="true">photography</li>
+								<li class="hobby__item" contenteditable="true">mathematics</li>
+								<li class="hobby__item" contenteditable="true">sociology</li>
+								<li class="hobby__item" contenteditable="true">games</li>
+								<li class="hobby__item" contenteditable="true">music</li>
+								<li class="hobby__item" contenteditable="true">movie</li>
+								<li class="hobby__item" contenteditable="true">popular science</li>
+								<li class="hobby__item" contenteditable="true">psychology</li>
+							</ul>
+						</article>
+
+					</section>
+				</div>
+			</div>
+		</main>
+    <div id="pdf-download-overlay">Downloading resume... Please wait</div>
+		<script type="module" src="./js/main.js" defer></script>
+	</body>
+</html>
